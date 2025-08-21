@@ -224,6 +224,28 @@ body {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .countdown-container {
+    padding: 15px; /* menos espacio alrededor */
+  }
+
+  .countdown-title {
+    font-size: 1.2rem; /* más chico el título */
+  }
+
+  .time-box {
+    padding: 8px; /* menos padding en cada caja */
+  }
+
+  .time-box span {
+    font-size: 1.4rem; /* números más chicos */
+  }
+
+  .time-box p {
+    font-size: 0.7rem; /* etiquetas más chicas */
+  }
+}
+
 
 /* HERO */
 
@@ -338,4 +360,5 @@ body {
   box-shadow: 0;
   height: auto;
   width: 50rem;
+
 }
